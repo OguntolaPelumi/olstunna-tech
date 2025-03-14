@@ -120,6 +120,9 @@
     margin-left: -30px;
     font-size: 25px;
 }
+.summaryskil{
+    margin-top: 300px;
+}
 .summaryskil h4{
     margin-left: -40px;
     margin-top: 60px;
@@ -138,7 +141,12 @@
     margin-left: 220px;
     margin-top: 300px;
 }
-
+.skillsdiv{
+    margin-top: 20px;
+}
+.skilllite{
+    
+}
 
 
 @media screen and (max-width: 480px) {
@@ -191,7 +199,8 @@
         
     }
     .skillsdiv{
-        margin-left: -200px;
+        margin-left: -50px;
+        
         
         
     }
@@ -303,7 +312,13 @@
     .footer{
         margin-left: -15px;
     }
+    .skillsdiv img{
+        width: 180px;
+        
+    }
 
-
+    .skillsdiv{
+        
+    }
 
 } 
