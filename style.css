@@ -303,14 +303,16 @@
 
     .available h4{
         color: white;
-        margin-left: -120px;
-        margin-right: -180px;
+        margin-left: -70px;
+        margin-right: -170px;
         margin-top: 100px;
+        font-size: 22px;
 
     }
     
-    .footer{
-        margin-left: -15px;
+    .footer h4{
+        margin-left: 60px;
+        font-size: 16px;
     }
     .skillsdiv img{
         width: 180px;
