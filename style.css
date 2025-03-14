@@ -65,6 +65,7 @@
 .skilllite{
     color: #ffffff;
     margin-top: 150px;
+    margin-top: 200px;
 }
 .skilllite ul{
     margin-left: -220px;
@@ -114,6 +115,30 @@
     margin-left: 500px;
     
 }
+.technical h4{
+    color: white;
+    margin-left: -30px;
+    font-size: 25px;
+}
+.summaryskil h4{
+    margin-left: -40px;
+    margin-top: 60px;
+}
+.tools h4{
+    text-decoration: underline; 
+    margin-top: 30px;  
+    margin-left: 0px;
+}
+.toolslist ul li a{
+    margin-left: 200px;
+}
+.available h4{
+    color: #ffffff;
+    font-size: 35px;
+    margin-left: 220px;
+    margin-top: 300px;
+}
+
 
 
 @media screen and (max-width: 480px) {
@@ -168,6 +193,7 @@
     .skillsdiv{
         margin-left: -200px;
         
+        
     }
 
     .skilllite ul{
@@ -175,6 +201,7 @@
         font-weight: bold;
         font-family: 'Times New Roman', Times, serif;
         list-style-type: none;
+        
 
     }
     .skilllite ul li a{
@@ -182,6 +209,7 @@
         border-bottom: none;
         color: antiquewhite;
         font-size: 20px;
+        margin-left: 70px;
     }
     .experience{
         color: white;
@@ -193,6 +221,7 @@
 
     .experience h4{
         font-size: 25px;
+        text-decoration: underline;
 
     }
     .sqi p{
@@ -230,7 +259,50 @@
         margin-bottom: 0px;
        
     }
+    .technical h4{
+        color: white;
+        margin-left: -80px;
+    }
+    .summaryskil{
+        margin-top: 200px;
+    }
+    .summaryskil h4{
+        margin-left: -100px;
+        margin-bottom: 10px;
+        margin-right: -150px;
+        font-family: 'Times New Roman', Times, serif;
+
+    }
+    .tools h4{
+        font-size: 18px;
+        margin-left: -100px;
+        margin-right: -90px;
+        text-decoration: underline;
+        
+    }
+    .summaryskil h5{
+        font-size: 18px;
+        font-family: 'Times New Roman', Times, serif;
+        margin-left: -80px;
+        margin-right: -80px;
+        margin-top: -13px;
+
+    }
+    .toolslist ul li a{
+        margin-left: 30px;
+    }
+
+    .available h4{
+        color: white;
+        margin-left: -120px;
+        margin-right: -180px;
+        margin-top: 100px;
+
+    }
     
+    .footer{
+        margin-left: -15px;
+    }
 
 
 
