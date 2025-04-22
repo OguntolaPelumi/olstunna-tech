@@ -5,10 +5,13 @@
 }
 
 .nafbar{
-    border: 2px solid black (47, 107, 89, 0.93);
+    border: 2px solid brown;
     padding: 15px;
-    background-color: rgba(4, 16, 12, 0.93);
-
+    background-color: brown;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10;
 }
 
 .nafbar nav ul{
@@ -42,6 +45,7 @@
     margin-top: -360px;
     margin-left: -200px;
     color: #ffffff;
+    
 }
 .datascience h2{
     font-size: 28px;
@@ -56,12 +60,16 @@
     border: 2px solid black (47, 107, 89, 0.93);
     padding: 370px;
     background-color: black;
+    margin-top: 90px;
+    z-index: 9px;
 }
 
 .skills{
     position: absolute;
     
+    
 }
+
 .skilllite{
     color: #ffffff;
     margin-top: 150px;
@@ -79,6 +87,9 @@
     border-bottom: none;
     color: antiquewhite;
     font-size: 20px;
+}
+.skillsdiv{
+    z-index: 9px;
 }
 .introduction{
     margin-left: -200px;
@@ -119,6 +130,7 @@
     color: white;
     margin-left: -30px;
     font-size: 25px;
+    z-index: 5px;
 }
 .summaryskil{
     margin-top: 300px;
@@ -135,21 +147,39 @@
 .toolslist ul li a{
     margin-left: 200px;
 }
+.middle{
+    border: 2px solid brown;
+    padding: 20px;
+    background-color: brown;
+    
+    
+}
 .available h4{
     color: #ffffff;
     font-size: 35px;
     margin-left: 220px;
-    margin-top: 300px;
+    margin-top: 100px;
+
 }
 .skillsdiv{
     margin-top: 20px;
+    z-index: 2px;
 }
-.skilllite{
+.message form{
     
 }
 
 
 @media screen and (max-width: 480px) {
+    body {
+        max-width: 100%;
+        overflow-x: hidden; /* Prevents horizontal scrolling */
+    }
+    .container {
+        width: 100%;
+        max-width: 400px; /* Adjust to fit mobile screens */
+        margin: 0 auto; /* Centers content */
+    }
     .nafbar h1{
         color: white;
         display: none;
@@ -176,6 +206,7 @@
         border: 2px solid black (47, 107, 89, 0.93);
         padding: 180px;
         background-color: black;
+        margin-top:60px;
         
     }
     .datascience h1{
@@ -307,10 +338,10 @@
     }
     .available h4{
         color: white;
-        margin-left: -70px;
+        margin-left: 40px;
         margin-right: -170px;
         margin-top: 100px;
-        font-size: 22px;
+        font-size: 32px;
         justify-content: center;
         align-content: center;
 
@@ -319,7 +350,7 @@
         justify-content: center;
     } 
     .footer h4{
-        margin-left: 60px;
+        margin-left: 40px;
         font-size: 16px;
 
     }
@@ -330,6 +361,11 @@
 
     .skillsdiv{
         
+    }
+    .message h5{
+        margin-left: 150px;
+        font-size: 18px;
+        color: wheat;
     }
 
 } 
